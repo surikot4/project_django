@@ -4,4 +4,5 @@ from .views import *
 urlpatterns = [
     path( '', home, name='home'),
     path( 'portfolio', portfolio, name='portfolio'),
+    path( 'tetris', tetris, name='tetris'),
 ]
